@@ -1,6 +1,9 @@
 <template>
     <div class="tabber">
-        
+        <div><img src="" alt=""></div>
+        <div>1</div>
+        <div>1</div>
+        <div>1</div>
     </div>
 </template>
   
@@ -24,6 +27,10 @@ export default {
       border: 1px solid black;
       margin-left: 21px ;
       margin-right: 21px;
+      display: flex;
+      justify-content: space-around;
+      // align-content: center;
+      line-height: 66px;
   }
   </style>
   
