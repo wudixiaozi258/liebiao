@@ -1,9 +1,9 @@
 <template>
     <div class="tabber">
-        <div><img src="" alt=""></div>
-        <div>1</div>
-        <div>1</div>
-        <div>1</div>
+        <div><img src="../images/矩形 2@2x.png" alt=""></div>
+        <div><img src="../images/分组 1@2x.png" alt=""></div>
+        <div><img src="../images/分组 3@2x.png" alt=""></div>
+        <div><img src="../images/并集@2x.png" alt=""></div>
     </div>
 </template>
   
@@ -24,13 +24,23 @@ export default {
       height: 66px;
       border-radius: 50px;
       background: rgba(255, 255, 255, 1);
-      border: 1px solid black;
       margin-left: 21px ;
       margin-right: 21px;
       display: flex;
       justify-content: space-around;
-      // align-content: center;
-      line-height: 66px;
+      align-content: center;
+      // line-height: 66px;
+      div{
+        display: flex;
+            /* 针对子元素的垂直方向对齐方式 */
+            align-items: center; 
+            /* 对子元素的水平方向对齐方式 */
+            justify-content: center;
+      }
+      img{
+        width: 18px;
+        height: 18px;
+      }
   }
   </style>
   
