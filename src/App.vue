@@ -25,6 +25,8 @@
 
 }
 #app{
+  height: 2000px;
   padding-top: 20px;
+  background-color: #f7f7fa;
 }
 </style>
