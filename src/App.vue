@@ -27,6 +27,7 @@
 #app{
   height: 2000px;
   padding-top: 20px;
-  background-color: #f7f7fa;
+  background: rgba(247, 247, 250, 1)
+
 }
 </style>

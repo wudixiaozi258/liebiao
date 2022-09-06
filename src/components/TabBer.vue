@@ -1,19 +1,20 @@
 <template>
+<<<<<<<
     <div class="tabber">
         <div><img src="../images/矩形 2@2x.png" alt=""></div>
         <div><img src="../images/分组 1@2x.png" alt=""></div>
         <div><img src="../images/分组 3@2x.png" alt=""></div>
         <div><img src="../images/并集@2x.png" alt=""></div>
+
     </div>
+  </div>
 </template>
   
   <script>
 export default {
-    name: 'TabBer',
-    props: {
-
-    }
-}
+  name: "TabBer",
+  props: {},
+};
 </script>
   
   <style scoped lang="scss">
@@ -41,6 +42,8 @@ export default {
         width: 18px;
         height: 18px;
       }
+
   }
-  </style>
+}
+</style>
   

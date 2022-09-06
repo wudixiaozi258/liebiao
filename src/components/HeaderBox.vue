@@ -1,5 +1,6 @@
 <template>
   <div class="header">
+
     <div class="headerBox">
       <span></span>
       <p>爱剁手的饼饼</p>
@@ -22,6 +23,7 @@
         <span>我的钱包</span>
       </div>
     </div>
+
   </div>
 </template>
 
@@ -68,8 +70,10 @@ export default {
       color: rgba(255, 255, 255, 1);
     }
   }
+
   .fourBox {
     padding-top: 27px;
+
 
 
     height: 113px;
