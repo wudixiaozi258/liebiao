@@ -7,7 +7,7 @@
         <div><img src="../images/并集@2x.png" alt=""></div>
 
     </div>
-  </div>
+
 </template>
   
   <script>
