@@ -1,125 +1,120 @@
 <template>
   <div class="header">
-   <div class="headerBox">
-    <div class="aa">
-       <img src="https://img.js.design/assets/img/61405dfba781860684064243.png" alt="" class="a">
+
+    <div class="headerBox">
+      <span></span>
+      <p>爱剁手的饼饼</p>
     </div>
-    <div class="bb">
-       <div class="b1"></div>
-        <div class="b2"></div>
-         <div class="b3"> </div>
-          <div class="b4"></div>
+    <div class="fourBox">
+      <div>
+        <div><img src="../../img/one.png" alt="" /></div>
+        <span>我的订单</span>
+      </div>
+      <div>
+        <div><img src="../../img/two.png" alt="" /></div>
+        <span>我的评价</span>
+      </div>
+      <div>
+        <div><img src="../../img/three.png" alt="" /></div>
+        <span>收藏店铺</span>
+      </div>
+      <div>
+        <div><img src="../../img/four.png" alt="" /></div>
+        <span>我的钱包</span>
+      </div>
     </div>
-    <div class="cc">
-       <div class="c1">我的订单</div>
-        <div class="c2">我的评价</div>
-         <div class="c3">收藏店铺 </div>
-          <div class="c4">我的钱包</div>
-    </div>
-   </div>
+
   </div>
 </template>
 
+
 <script>
 export default {
-  name: 'HeaderBox',
-  props: {
-    
-  }
-}
+  name: "HeaderBox",
+  props: {},
+};
 </script>
 
+
 <style scoped lang="scss">
-  .header{
-    width: 375px;
-    
-    padding-left:25px ;
-    padding-right:25px ;
-  }
-  .headerBox{
-    height: 236px;
-    border: 1px solid black;
+.header {
+  width: 326px;
+  height: 236px;
+  border-radius: 28px;
+  // border: 1px solid red;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 1);
+  .headerBox {
+    // border: 1px solid black;
+    border: none;
     border-radius: 28px;
+    width: 326px;
+    height: 124px;
+    background: url("../../img/background.png") no-repeat;
+    background-size: 326px 124px;
+    span {
+      display: inline-block;
+      width: 48px;
+      height: 48px;
+      // margin-top: 28px;
+      margin: 28px 0 0 139px;
+      background: url("../../img/头像.png");
+      background-size: 48px 48px;
+    }
+    p {
+      text-align: center;
+      text-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.18);
+      font-size: 12px;
+      font-weight: 700;
+      margin-top: 13px;
+      color: rgba(255, 255, 255, 1);
+    }
   }
-  .aa{
-    width:100%;
-    height:124px;
-  }
-  .a{
-    width:100%;
-    height:124px;
-    // border-radius
-  }
-  .bb{
+
+  .fourBox {
+    padding-top: 27px;
+
+
+
+    height: 113px;
+    width: 326px;
     display: flex;
+    flex-direction: row;
+    div {
+      padding-left: 20px;
+      flex: 1;
+      div {
+        padding-left: 2px;
+        // margin-bottom: 12px;
+        width: 44px;
+        height: 44px;
+
+
+        background: url("../../img/yellow.png");
+        background-size: 44px 44px;
+        img {
+          width: 20px;
+          height: 19px;
+          display: inline-block;
+          margin-left: 11px;
+          margin-top: 13px;
+          // border: 1px solid red;
+          margin-bottom: 10px;
+          // :nth-child(1) {
+          //   z-index: 10;
+          //   background: url("../../img/one.png");
+          //   background-size: 19.5px 19.29px;
+          // }
+        }
+      }
+      span {
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0px;
+        line-height: 0px;
+        color: rgba(26, 26, 26, 1);
+      }
+    }
   }
-  .b1{
-    margin-left:30px;
-    margin-top:26px;
-     width:44px;
-     height:44px;
-     border-radius: 27.65px;
-     background: rgba(255, 223, 117, 1);
-  }
-   .b2{
-    margin-left:30px;
-    margin-top:26px;
-     width:44px;
-     height:44px;
-     border-radius: 27.65px;
-     background: rgba(255, 223, 117, 1);
-  }
-   .b3{
-    margin-left:30px;
-    margin-top:26px;
-     width:44px;
-     height:44px;
-     border-radius: 27.65px;
-     background: rgba(255, 223, 117, 1);
-  }
-   .b4{
-    margin-left:30px;
-    margin-top:26px;
-    margin-right:31px;
-     width:44px;
-     height:44px;
-     border-radius: 27.65px;
-     background: rgba(255, 223, 117, 1);
-  }
-  .cc{
-    margin-top:12px;
-    display:flex;
-  }
-  .c1{
-     font-size:12px;
-     font-weight: 500;
-     margin-left:28px;
-     margin-bottom:16px;
-     width:48px;
-     height:14px;
-  }
-  .c2{
-font-size:12px;
-     font-weight: 500;
-     margin-left:25px;
-     margin-bottom:16px;
-      width:48px;
-     height:14px;
-  }
-  .c3{
-font-size:12px;
-     font-weight: 500;
-     margin-left:25px;
-     margin-bottom:16px;
-      width:48px;
-     height:14px;
-  }
-  .c4{
-font-size:12px;
-     font-weight: 500;
-     margin-left:25px;
-     margin-bottom:16px;
-      width:48px;
-     height:14px;
-  }
+}
 </style>
