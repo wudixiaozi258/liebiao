@@ -1,5 +1,5 @@
 <template>
-<<<<<<<
+
     <div class="tabber">
         <div><img src="../images/矩形 2@2x.png" alt=""></div>
         <div><img src="../images/分组 1@2x.png" alt=""></div>
